@@ -1,0 +1,60 @@
+/* Curved Carousel styles */
+.carousel {
+  perspective: 1500px;
+  width: 100%;
+  max-width: 1080px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  user-select: none;
+}
+
+.ring {
+  position: absolute;
+  box-shadow: none;
+  top: 50%;
+  left: 50%;
+  width: 0;   /* kita hanya butuh center point */
+  height: 0;
+  transform-style: preserve-3d;
+  transform-origin: center center 0;
+  pointer-events: none;
+}
+
+.img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 260px;
+  height: 340px;
+  margin-left: -130px; /* setengah width */
+  margin-top: -170px;  /* setengah height */
+  border-radius: 12px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  overflow: hidden;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.img .label {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  color: white;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  font-weight: 600;
+}
+
+/* responsive */
+@media (max-width: 640px) {
+  .img {
+    width: 260px;
+    height: 180px;
+    margin-left: -130px;
+    margin-top: -90px;
+    background-size: cover;
+  }
+}
