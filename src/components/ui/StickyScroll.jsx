@@ -134,7 +134,7 @@ const StickyScroll = () => {
     </section>
     <section className="spotlight">
         <div className="spotlight-header">
-            <h1>Terima Kasih untuk Segala Kenangan Baiknya</h1>
+            <h1>Terima Kasih untuk Segala Kenang</h1>
         </div>
         <div className="spotlight-images">
             <div className="spotlight-img">
@@ -195,6 +195,9 @@ const StickyScroll = () => {
                 </p>
                 <p>
                     maafin aku kalo sering bikin anggun kesel yaaa. aku selalu berusaha tau buat jadi pacar yang baik buat anggun, aku sadar kalo aku masih banyak kurangnya. makasih udah mau sama aku ya cantikkk.
+                </p>
+                <p>
+                    Waktu anggun bilang mau bikin board yang isinya fotonya anggun dan kawan kawan, sama aku juga. aku seneng banget, aku jadi kepikiran bikinin web yang bisa anggun pasang foto sesukanyaa, bilang aja kalo mau diganti fotonya ya cantik, kalo bosen bisa request fotonya ke aku hehe.
                 </p>
                 <p>
                     Selamat ulang tahun anggun, semoga semua doa dan harapan anggun terkabul di tahun ini dan tahun-tahun berikutnya. <br /> <br /> Aku sayang banget sama anggoooooonnnnnn 😘❤️🎉🎂
