@@ -125,30 +125,87 @@ const StickyScroll = () => {
   return (
     <div className="sticky-scroll-root">
     <section className="intro">
-        <h1>we make visual breathe pas intro</h1>
+        <div className="flex flex-col gap-6 text-center container mx-auto px-6">
+            <h1>Selamat <span className="highlight line-through">Bertambah</span> Bertumbuh</h1>
+            <p className='text-xl'>
+                Selamat bertambah usia, di usia yang baru ini, semoga menjadi lebih baik, lebih menyenangkan, lebih bermanfaat, dan lebih membahagiakan. <br /> Tetap semangat dalam menjalani hari-hari ya, cantik. Selalu diberikan kesehatan dan kebahagiaan jugaa. Happy birthday!
+            </p>
+        </div>
     </section>
     <section className="spotlight">
         <div className="spotlight-header">
-            <h1>time stretch gitu lah ya</h1>
+            <h1>Terima Kasih untuk Segala Kenangan Baiknya</h1>
         </div>
         <div className="spotlight-images">
             <div className="spotlight-img">
-                <img src="/photos/carousel/1.png" alt="foto 1" />
+                <img src="/photos/11.png" alt="foto 1" />
             </div>
             <div className="spotlight-img">
-                <img src="/photos/carousel/2.png" alt="foto 1" />
+                <img src="/photos/12.png" alt="foto 1" />
             </div>
             <div className="spotlight-img">
-                <img src="/photos/carousel/3.png" alt="foto 1" />
+                <img src="/photos/13.png" alt="foto 1" />
             </div>
             <div className="spotlight-img">
-                <img src="/photos/carousel/4.png" alt="foto 1" />
+                <img src="/photos/14.png" alt="foto 1" />
             </div>
         </div>
     </section>
-    <section className="outro">
-        <h1>we make visual breathe</h1>
-    </section>
+    <section className="outro min-h-screen w-full bg-[#0b0a0a] text-[#d8dbd2]">
+  <div className="min-h-screen flex items-center justify-center">
+    <div className="grid w-full max-w-6xl grid-cols-6 gap-12 px-6">
+      {/* Puisi kiri */}
+      <div className="col-span-3 flex items-center">
+        <div className="mx-auto w-full max-w-md flex flex-col gap-4 text-left">
+          <h2 className="mb-4 text-4xl font-semibold bg-gradient-to-r from-slate-400 to-white bg-clip-text text-transparent">
+            Tambah / Tumbuh
+          </h2>
+
+          <div className="space-y-1 text-slate-300 leading-relaxed">
+            <p>Rangkul lembut jemarimu</p>
+            <p>Selalu terasa layaknya kemarin</p>
+            <p>Ingar bingar dentuman hidup</p>
+            <p>Menjadi bisu kala bersamamu</p>
+          </div>
+
+          <div className="my-6 space-y-1 text-slate-300 leading-relaxed">
+            <p>Selamat bertambah</p>
+            <p>Niscaya tiada pernah berkurang</p>
+            <p>Kau telah merekah bagai kenang yang menyesakkan kening</p>
+            <p>Lalui sedih, senang, marah, kecewa, hidup...</p>
+            <p>Tiada berkurang</p>
+            <p>Tetaplah tumbuh</p>
+          </div>
+
+          <p className="mt-8 text-sm text-slate-400">Januari, 16, 2026</p>
+        </div>
+      </div>
+
+      {/* Blok kanan */}
+      <div className="col-span-3 flex items-center">
+        <div className="mx-auto w-full max-w-md text-center flex flex-col gap-2">
+          <h2 className="mb-2 text-3xl font-semibold bg-gradient-to-r from-slate-400 to-white bg-clip-text text-transparent text-left" >
+            Selamat, Cantik!
+          </h2>
+            <div className="mt-4 text-left font-sans text-base text-slate-300 leading-relaxed flex flex-col gap-4">
+                <p>
+                    Semoga anggun suka yaa, sebenarnya dari kemarin aku ketak ketik nulis ini,
+                    maafin aku yaa gabisa bilang soalnya (rahasia) hehee. Seru tau nemenin anggun tumbuh dari kecil sampai sekarang, aku harap anggun juga ngerasa seru sama aku. 
+                    Terima kasih udah jadi pacar yang seru, semoga di umur yang baru ini anggun makin bahagia, sehat, sukses, dan makin cantik pastinyaa hehe.
+                </p>
+                <p>
+                    maafin aku kalo sering bikin anggun kesel yaaa. aku selalu berusaha tau buat jadi pacar yang baik buat anggun, aku sadar kalo aku masih banyak kurangnya. makasih udah mau sama aku ya cantikkk.
+                </p>
+                <p>
+                    Selamat ulang tahun anggun, semoga semua doa dan harapan anggun terkabul di tahun ini dan tahun-tahun berikutnya. <br /> <br /> Aku sayang banget sama anggoooooonnnnnn 😘❤️🎉🎂
+                </p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
     </div>
   )
 }

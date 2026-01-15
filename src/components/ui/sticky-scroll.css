@@ -32,14 +32,14 @@
     width: 50%;
     margin: 0 auto;
     text-align: center;
-    color: #141414;
+    color: #d8dbd2;
 }
 
 .sticky-scroll-root .intro, .sticky-scroll-root .outro {
-    background-color: #d7dbd2;
+    background-color: #0b0a0a;
 }
 .sticky-scroll-root .spotlight {
-    background-color: #edf1e8;
+    background-color: #111111;
     overflow: visible; /* allow images to move outside without being clipped */
     z-index: 40; /* keep spotlight above following sections while pinned */
 }

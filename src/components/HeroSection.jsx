@@ -15,8 +15,8 @@ const HeroSection = () => {
         <section className="relative min-h-screen w-full overflow-hidden bg-[#0b0a0a] text-[#d8dbd2]">
           <div className="relative mx-auto flex max-w-7xl flex-col items-center px-6 pt-32 text-center">
             <h1 className="text-4xl font-semibold sm:text-5xl lg:text-6xl">
-              Mungkin tidak semua terekam,
-              <span className="block text-white/60">Tapi aku selalu suka melihatmu utuh</span>
+              Meskipun tidak semua terekam,
+              <span className="block text-white/60">Tapi aku selalu melihatmu utuh</span>
             </h1>
           </div>
 
