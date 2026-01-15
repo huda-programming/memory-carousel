@@ -31,7 +31,7 @@ const CurvedCarousel = ({ count = NUM, images }) => {
     const tl = gsap.timeline()
       .from(imgsEls, {
         duration: 1.2,
-        y: 200,         
+        y: 0,         
         opacity: 1,   
         stagger: 0.1,
         ease: 'power2.inOut', 
